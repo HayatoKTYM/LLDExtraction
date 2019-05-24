@@ -58,4 +58,5 @@ if __name__ == '__main__':
             lines.set_data(x, y)
             ax.set_xlim((min(x), max(x)))
             cnt+=1
+            plt.savefig('result/vad_'+str(cnt)+'.png')
             plt.pause(.01)
